@@ -36,7 +36,9 @@
         </ul>
       </nav>
     </header>
-    
+    <div class="animation"></div>
+    <div class="animation"></div>
+    <div class="animation"></div>
     <router-view :link="link"></router-view>
     <router-view name="demos"></router-view>
     <router-view name="list"></router-view>
@@ -246,6 +248,7 @@ main{
 
   .Post .presentation{
     min-height: 80vh;
+    background-color: white;
     box-sizing: border-box;
     border: solid 1px #FCA31D;
     padding: 1rem;
@@ -401,5 +404,95 @@ main{
     margin-top: 4rem;
     margin-bottom: 2rem;
   }
+
+
+  @keyframes rotating{
+    0%{
+      transform: rotate(0deg);
+    }
+
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+
+  @-webkit-keyframes rotating{
+    0%{
+      transform: rotate(0deg);
+    }
+
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+
+  @-moz-keyframes rotating{
+    0%{
+      transform: rotate(0deg);
+    }
+
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+
+  .animation{
+    pointer-events: none;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 15rem;
+    height: 15rem;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/assets/star-green.svg);
+    animation-duration: 3s;
+    animation-name: rotating;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: rotating;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-duration: 3s;
+    -moz-animation-name: rotating;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+  }
+
+  .animation:nth-of-type(2){
+    background-image: url(/assets/star-pink.svg);
+    animation-direction: reverse;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    -moz-animation-direction: reverse;
+    -moz-animation-duration: 3.5s;
+    -moz-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: reverse;
+    -webkit-animation-duration: 3.5s;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+
+  .animation:nth-of-type(3){
+    background-image: url(/assets/star-orange.svg);
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    -moz-animation-duration: 4s;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+  }
+
+
+
+
 
 </style>

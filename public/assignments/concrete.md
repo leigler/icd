@@ -1,6 +1,6 @@
 # Concrete Email
 
-This exercise consists of two parts.<i>Part One</i> acts as an `HTML` primer and should facilitate an exploration of the inherit hierarchies and design potential of different HTML elements.
+This exercise consists of two parts. <i>Part One</i> acts as an `HTML` primer and should facilitate an exploration of the inherit hierarchies and design potential of different HTML elements.
 
 <i>Part Two</i> focuses on infusing basic `CSS` layout and visual styles.
 
