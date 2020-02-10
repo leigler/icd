@@ -8,13 +8,14 @@ This exercise consists of two parts. <i>Part One</i> acts as an `HTML` primer an
 ## Part One
 Open your inbox and select one of your most recent "promotional" emails. Take a moment to identify crucial phrases, key words, unique claims, and the general hierarchy with which the content has been shared with you. 
 
-- Using your knowledge of HTML so far, create an `index.html` file and convert this email into a piece of concrete poetry. 
+- Using your knowledge of HTML so far, create an `index.html` file and convert this email into a [typographic topography](http://kvadratinterwoven.com/typewriters-and-tactile-textiles). Try and identify the constraints of plain HTML, and see how you can use them to your advantage. 
+- A full list of html elements can be found [here](https://devdocs.io/html-elements/).
 
 ## Part Two
 
 - Now make a copy of your `index.html`, saving it with the name `with-style.html`. 
 - Create and link a CSS file with the name `style.css` to `with-style.html` using the `link` tag in the header. 
-- Using your knowledge of CSS so far, begin introducing some styles to your email. Take note of how 
+- Using your knowledge of CSS so far, begin introducing some styles to your email. Take note of how changing the position of one element can dramatically change the relative positions of others.
 
 ***
 

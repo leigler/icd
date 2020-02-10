@@ -129,6 +129,34 @@ These elements can be placed inside one another (nested) to make complext organi
 </pre>
 ```
 
+### Interactive Elements
+
+- Link <a href="https://icd.teachinginter.net">This is a Link!</a>
+```html
+	<a href="https://icd.teachinginter.net">This is a Link!</a>
+
+```
+
+- Button <button type="button">Yes!</button>
+```html
+	<button type="button">Yes!</button>
+```
+
+- Checkbox: <input type="checkbox" name="checkbox_name" value="yes"><label for="checkbox_name"> Yes</label>
+```html
+
+	<input type="checkbox" name="checkbox_name" value="yes">
+  <label for="checkbox_name"> Yes</label>
+
+```
+
+- Radio <input type="radio" name="radio_name" value="yes"> <label for="radio_name"> Possibly</label>
+```html
+<input type="radio" name="radio_name" value="yes">
+<label for="radio_name"> Possibly</label>
+
+```
+
 ### Organizational Elements + Semantic HTML:
 Some HTML elements are used to organize content, often in machine-readable (i.e. accessible) ways:
 - Divs (a catch-all wrapper): `div`

@@ -167,7 +167,29 @@ This can be solved by removing the space between the actual html elements:
 	><div style="display:inline-block; width: 33.33%; height: 40px; background-color: #00F2B8;"></div
 	><div style="display:inline-block; width: 33.33%; height: 40px; background-color: #FCA31D;"></div
 	>
+<br>
+
+<br>In case of unequal height, you can use the css attribute `vertical-align: top;` (or `middle`, or `bottom`): to change the element&rsquo;s alignment: 
 <br><br>
+<div style="display:inline-block; vertical-align: top; width: 33.33%; height: 100px; background-color: #FC1D95;"></div
+	><div style="display:inline-block; vertical-align: top; width: 33.33%; height: 40px; background-color: #00F2B8;"></div
+	><div style="display:inline-block; vertical-align: top; width: 33.33%; height: 200px; background-color: #FCA31D;"></div
+	>
+<br>
+<br>
+<div style="display:inline-block; vertical-align: middle; width: 33.33%; height: 100px; background-color: #FC1D95;"></div
+	><div style="display:inline-block; vertical-align: middle; width: 33.33%; height: 40px; background-color: #00F2B8;"></div
+	><div style="display:inline-block; vertical-align: middle; width: 33.33%; height: 200px; background-color: #FCA31D;"></div
+	>
+<br>
+<br>
+<div style="display:inline-block; vertical-align: bottom; width: 33.33%; height: 100px; background-color: #FC1D95;"></div
+	><div style="display:inline-block; vertical-align: bottom; width: 33.33%; height: 40px; background-color: #00F2B8;"></div
+	><div style="display:inline-block; vertical-align: bottom; width: 33.33%; height: 200px; background-color: #FCA31D;"></div
+	>
+<br><br>
+
+
 
 ## Absolute
 
@@ -184,14 +206,14 @@ background-color: #FCA31D;
 <div id="hidden_absolute" style="
 position: absolute;
 padding: 20px;
-top: 300vh;
+top: 940vh;
 right: 20%;
 display: none;
 background-color: #FC1D95;;
 "><code>position: absolute;</code><br><br><code>left: 20%;</code>
 <br><br><code>top: 20%;</code></div>
 
-<button onClick="document.getElementById('hidden_absolute').style.display = 'block'; ">Show absolute Div</button>
+<button class="special_button" onClick="document.getElementById('hidden_absolute').style.display = 'block'; ">Show absolute Div</button>
 
 
 <br><br><br><br>`absolute` positioned elements are directly related to their parent element when their parent&rsquo;s position is clearly defined: 

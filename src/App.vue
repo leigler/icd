@@ -225,7 +225,7 @@ main{
   border-top: 1px solid #00F2B8;
 }
 
-.Post button{
+.Post button.special_button{
   cursor: pointer;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
