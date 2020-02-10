@@ -26,3 +26,4 @@
 - [Frederic Brodbeck&rsquo;s are.na channel](https://www.are.na/frederic-brodbeck/open-source-typefaces)
 
 ## Readings
+- [A Typographic Discourse](http://s3.amazonaws.com/arena-attachments/2558912/d4365f7c2d1c55c3684c5ff73eda4fa3.pdf)
