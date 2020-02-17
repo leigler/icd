@@ -36,6 +36,7 @@
       this.post = '<h1>loading...</h1>';
       let section = this.$route.params.section
       let file = this.$route.params.post
+      window.console.log(this.$route.params.post)
       fetch(`/${section}/${file}.md`)
       .then((response) => { return response.text() })
       .then((textResponse) => {

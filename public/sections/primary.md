@@ -1,5 +1,15 @@
 # Welcome!
 
+## Day 2
+- Review: Truck Typography
+- Questions: HTML + CSS
+- CSS: [Positioning](/lectures/css2), [Interaction](/lectures/csspseudo)
+- Exercise: [Albers](/assignments/albers)
+- CSS: [Animations](/lectures/cssanimations)
+- Assignment: [Commercial Vehicle Typography, Part 2](/assignments/truck2)
+- Reading: [Benevolent Deception in Human Computer Interaction ](http://www.cond.org/deception.pdf)
+- Reading: [Towards Aesthetic Guidelines for Paintings with the aid of Computers](https://s3.amazonaws.com/2b.andydayton.com/readings/molnar-aesthetic.pdf) by Vera Molnár
+
 ## Day 1
 - Introductions
 - [An intro to HTML](/lectures/html)

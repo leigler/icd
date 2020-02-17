@@ -1,4 +1,4 @@
-# New York Commercial Vehicle Typography
+# Part 1: New York Commercial Vehicle Typography
 
 - [TruckLife are.na channel](https://www.are.na/ben-ross-1515211424/trucklife)
 

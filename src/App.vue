@@ -112,6 +112,7 @@ small{
 header{
   position: sticky;
   top: 0;
+  z-index: 100;
   background-color: rgba(255,255,255,0.9);
   padding-bottom: 0.5rem;
   display: flex;
