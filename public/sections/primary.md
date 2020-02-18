@@ -1,6 +1,10 @@
 # Welcome!
 
 ## Day 2
+### Class Files
+- You can find a zip of today&rsquo;s files [here](/files/feb-17.zip).
+
+### Itinerary 
 - Review: Truck Typography
 - Questions: HTML + CSS
 - CSS: [Positioning](/lectures/css2), [Interaction](/lectures/csspseudo)
