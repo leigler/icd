@@ -54,7 +54,7 @@ To list multiple transitions, separate them by comma:
 
 
 #### Focus
-
+Focus states are most often used for forms.
 ```css
 
 .myClass:focus {
@@ -65,7 +65,7 @@ To list multiple transitions, separate them by comma:
 
 
 #### Active
-
+Active states are most often used for links and buttons.
 ```css
 
 .myClass:active {
@@ -209,6 +209,69 @@ selects a specific or repeating element:
 </div>
 <br><br>
 
+### Attribute Selectors: 
+
+In some cases, the traditional pseudo classes don&rsquo;t provide the nuance we would like to implement. *This is specifically relevant to styling input types*. CSS also lets us select elements by their attributes: 
+
+#### Includes Attribute
+If an element contains a certain attribute you can select it:
+```css
+
+a[target]{
+	color: red;
+}
+
+```
+
+#### Includes Attribute Value
+If an element has a specific attribute value (like a link opening a new window):
+
+```css
+
+a[target="_blank"]{
+	color: yellow;
+}
+
+```
+Or a specific input type:
+```css
+
+input[type="submit"]{
+	color: yellow;
+}
+
+input[type="text"]{
+	color: black;
+}
+
+input[type="checkbox"]{
+	border-color: red;
+}
+
+```
+
+For a complete list, check out [W3Schools](https://www.w3schools.com/css/css_attribute_selectors.asp).
+
+### Includes partial Attribute Value
+Includes a whole word:
+```css
+
+img[alt~="nature"]{
+	border-color: green;
+}
+
+```
+
+
+Includes a string (like natu in nature or natural):
+```css
+
+img[alt*="natu"]{
+	border-color: green;
+}
+
+```
+
 ### Additional CSS Selectors:
 
 #### Nested: " "
@@ -240,6 +303,16 @@ The `+` allows for us to select the following element. In this example our `marg
 
 	h1 + p{
 		margin-top: 1rem;
+	}
+
+```
+
+#### All: *
+The `*` allows for us to select all nested elements. In this example our `color` would apply to all elements inside a `main` element:
+```css
+
+	main *{
+		color: red;
 	}
 
 ```

@@ -2,11 +2,12 @@
 
 Take a moment to acquaint yourself with this pdf of the book [&ldquo;Interaction of Color&rdquo;](http://www.g-e-s-t-a-l-t.org/MEDIA/PDF/Interaction-of-Color.pdf) by Josef Albers.
 
-Using your knowledge of interactive (and potentially logic-based) [pseudo-classes](/lectures/csspseudo), select a Bauhaus canon color theory example given in this book and create an interactive version of it with HTML and CSS. 
+Using your knowledge of interactive (and potentially logic-based) [pseudo-classes](/lectures/csspseudo), select an example from this book and create an interactive version of it with HTML and CSS. 
 
 Consider what elements of the composition you can nest to keep transitions smooth. Additionally, consider whether elements should be written as `input` or `button` to take advantage of `focus` states.
 
-## An example (not relating to any specific Albers composition)
+## An example
+(not relating to any specific Albers composition)
 
 <style type="text/css">
 	

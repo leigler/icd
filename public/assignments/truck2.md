@@ -9,7 +9,6 @@ To start, please make a copy of your Commercial Vehicle assignment from last wee
 ## Requirements
 Your assignment should: 
 - have at least two `@media` queries, allowing your truck to successfully transition between different widths
-- have some sort of CSS animation introduced. The implementation (duration, scale, speed, iteration) of this animation is up to you: it can be used to load your vehicle in, depict time of day, activate on `:hover`, or highlight some feature of your vehicle.
 
 
 ## Helpful Tips

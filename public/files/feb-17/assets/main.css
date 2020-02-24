@@ -1,0 +1,161 @@
+html, body{
+	font-size: 3vw;
+}
+
+#lock{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 100;
+
+	width: 8rem;
+	height: 4rem;
+	border-left: solid 1rem orange;
+	border-bottom: solid 1rem orange;
+	border-bottom-left-radius: 4rem;
+	border-bottom-right-radius: 8rem;
+}
+
+.pupil, #mouth{
+	box-sizing: border-box;
+}
+
+.eyes{
+	position: relative;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	width: calc(50% - 0.5rem);
+	height: 12rem;
+	border: solid 0.25rem gray;
+	background-color: lightgray;
+	border-radius: 1rem;
+	margin: 0.25rem;
+}
+
+.circle{
+	box-sizing: border-box;
+	width: 4rem;
+	height: 4rem;
+	border: solid 0.25rem gray;
+	border-radius: 2rem;
+}
+
+.pupil{
+	position: sticky;
+	top: 1rem;
+	left: 1.25rem;
+}
+
+#right_pupil{
+	left: calc(50% + 1rem);
+}
+
+
+#mouth{
+	position: relative;
+	width: 100%;
+	height: 14rem;
+	background-color: lightgray;
+}
+
+#gums{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 28rem;
+	height: 4rem;
+}
+
+.tooth{
+	display: inline-block;
+}
+
+
+
+.tooth:nth-of-type(odd){
+	transform: translateY(2rem);
+}
+
+.tooth:first-of-type{
+	transform: translateY(-2rem);
+	background-color: lightgray;
+}
+
+.tooth:last-of-type{
+	transform: translateY(-2rem);
+}
+
+#neck{
+	display: none;
+}
+
+.eyes .circle{
+	background-color: black;
+}
+
+.eyes:hover .circle{
+	background-color: blue;
+}
+
+
+@media (max-width: 900px){
+
+	.eyes{
+		background-color: white;
+	}
+
+
+}
+
+
+@media(any-hover: hover){
+
+	body{
+		background-color: red;
+	}
+
+}
+
+
+
+@media (max-width: 768px), (min-height: 900px){
+
+	.eyes{
+			height: 30rem;
+			background-color: lightyellow;
+	}
+
+	#mouth{
+		height: 50rem;
+	}
+
+	#neck{
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+		height: 10rem;
+		background-color: lightgray;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+

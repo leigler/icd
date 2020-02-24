@@ -1,5 +1,16 @@
 # Welcome!
 
+## Day 3
+- Review: Truck Typography 
+- CSS: [Interaction](/lectures/csspseudo)
+- Exercise: [Albers](/assignments/albers)
+- CSS: [Animations](/lectures/cssanimations)
+- Exercise: [Commercial Vehicle Truck Type, Part 3](/assignments/truck3)
+- Conversation: Final Project (A digital publication?)
+- Javascript: [Introduction](/lectures/javascript1) (*if there&rsquo;s time!*)
+- Assignment: [Screensaver](/assignments/screensaver)
+- *Also! Please upload your Albers and Truck Animation Exercises*
+
 ## Day 2
 ### Class Files
 - You can find a zip of today&rsquo;s files [here](/files/feb-17.zip).
