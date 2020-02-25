@@ -21,6 +21,7 @@ Within CSS, you can assign looping animations to elements using the `@keyframes`
 	font-size: 20px;
 	animation-name: myAnimation;
 	animation-duration: 4s;
+	animation-fill-mode: forwards;
 }
 
 
@@ -39,6 +40,7 @@ Within CSS, you can assign looping animations to elements using the `@keyframes`
 	font-size: 20px;
 	animation-name: myAnimation;
 	animation-duration: 10s;
+	animation-fill-mode: forwards;
 }
 </style>
 
@@ -81,12 +83,14 @@ Of course you can exercise quite a bit more nuance using percentages:
 	font-size: 20px;
 	animation-name: myOtherAnimation;
 	animation-duration: 4s;
+	animation-fill-mode: forwards;
 }
 
 #myThirdTitle{
 	font-size: 20px;
 	animation-name: myOtherAnimation;
 	animation-duration: 8s;
+	animation-fill-mode: forwards;
 }
 
 
