@@ -1,6 +1,11 @@
 # Welcome!
 
 ## Day 3
+
+### Class Files
+- You can find a zip of today&rsquo;s files [here](/files/feb-24.zip).
+
+### Itinerary 
 - Review: Truck Typography 
 - CSS: [Interaction](/lectures/csspseudo)
 - Exercise: [Albers](/assignments/albers)
