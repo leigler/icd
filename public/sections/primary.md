@@ -1,5 +1,12 @@
 # Welcome!
 
+## Day 4
+- Review: CSS Animation + [Screensaver](/assignments/screensaver)
+- Javascript: [Introduction](/lectures/javascript1) + [setInterval](/lectures/intervals)
+- Exercise: [Growth](/assignments/growth)
+- Javascript: [Functions](/lectures/functions), [Appending](/lectures/appending), and [Loops](/lectures/loops)
+- Assignment: [Generative Pattern](/assignments/generative)
+
 ## Day 3
 
 ### Class Files
@@ -12,7 +19,6 @@
 - CSS: [Animations](/lectures/cssanimations)
 - Exercise: [Commercial Vehicle Truck Type, Part 3](/assignments/truck3)
 - Conversation: Final Project (A digital publication?)
-- Javascript: [Introduction](/lectures/javascript1) (*if there&rsquo;s time!*)
 - Assignment: [Screensaver](/assignments/screensaver)
 - *Also! Please upload your Albers and Truck Animation Exercises*
 

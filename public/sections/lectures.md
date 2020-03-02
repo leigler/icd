@@ -6,3 +6,8 @@
 - CSS Part 2: [Pseudo Classes](/lectures/csspseudo)
 - CSS Part 2: [CSS Animations](/lectures/cssanimations)
 - CSS Part 2: [Display Flex](/lectures/cssflex)
+- Javascript Part 1: [Introduction (Variables, Conditionals, and DOM Manipulation)](/lectures/javascript1)
+- Javascript Part 2: [setInterval](/lectures/intervals)
+- Javascript Part 3: [Functions](/lectures/functions)
+- Javascript Part 4: [Appending to the DOM](/lectures/appending)
+- Javascript Part 5: [Loops](/lectures/loops)
