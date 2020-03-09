@@ -106,3 +106,30 @@ gettingInfo("my/url/info.json")
 ```
 
 
+### Example
+Getting our class lecture links:
+
+```javascript
+	
+fetch("https://raw.githubusercontent.com/leigler/icd/master/public/files/icd.json")
+.then(function(response){return response.json()})
+.then(function(responseJson){
+
+	console.log(responseJson)
+
+})
+
+```
+
+
+```javascript
+	
+fetch("https://raw.githubusercontent.com/leigler/icd/master/public/files/icd-list.html")
+.then(function(response){return response.text()})
+.then(function(responseHtml){
+
+	console.log(responseHtml)
+
+})
+
+```

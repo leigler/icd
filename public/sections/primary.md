@@ -5,8 +5,8 @@
 - Javascript: [Loops](/lectures/loops)
 - Javascript: [Event Listeners](/lectures/listeners)
 - Javascript: [Asynchronous](/lectures/async)
-- Conversation: Final Project
-- Assignment: [Pattern](/assignments/generative)
+- Conversation: Final Project 
+- Assignment: [Pattern](/assignments/generative), ([example pattern](/files/example-pattern.zip))
 
 <!-- 
 	Generative pattern with controls interface

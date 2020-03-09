@@ -11,6 +11,8 @@ For next week, create the first draft of this generative pattern using Javascrip
 ## Week 2
 For the following week, we will introduce a layer of UI: creating a series of controls the alter this pattern.
 
+([Example pattern](/files/example-pattern.zip))
+
 #### Additional References
 - Vera Molnár&rsquo;s [Drawings](https://www.are.na/daniel-lefcourt/monograph-vera-molnar)
 - Anni Alber&rsquo;s [Patterns](https://arena-attachments.s3.amazonaws.com/2597972/2065c555bbd04503da9df3d3ec5052dc.pdf?1535137003)
