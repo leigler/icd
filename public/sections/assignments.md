@@ -10,8 +10,6 @@
 - [Generative Pattern](/assignments/generative)
 
 <!-- - Albers Transitions
-- Interaction Studies
-- Screensaver
 - Generative Pattern
 - With Feeling
 - Final: (open-ended) -->

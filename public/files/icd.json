@@ -1,0 +1,48 @@
+{
+	"lectures" : [
+		{
+			"name": "HTML Basics",
+			"link": "/lectures/html"
+		},
+		{
+			"name": "CSS Part 1",
+			"link": "/lectures/css"
+		},
+		{
+			"name": "CSS Part 2: Positioning and Media Queries",
+			"link": "/lectures/css2"
+		},
+		{
+			"name": "CSS Part 2: Pseudo Classes",
+			"link": "/lectures/csspseudo"
+		},
+		{
+			"name": "CSS Part 2: CSS Animations",
+			"link": "/lectures/cssanimations"
+		},
+		{
+			"name": "CSS Part 2: Display Flex",
+			"link": "/lectures/cssflex"
+		},
+		{	
+			"name": "Javascript Part 1: Introduction (Variables, Conditionals, and DOM Manipulation)",
+			"link": "/lectures/javascript1"
+		},
+		{
+			"name": "Javascript Part 2: setInterval",
+			"link": "/lectures/intervals"
+		},
+		{
+			"name": "Javascript Part 3: Functions",
+			"link": "/lectures/functions"
+		},
+		{
+			"name": "Javascript Part 4: Appending to the DOM",
+			"link": "/lectures/appending"
+		},
+		{
+			"name": "Javascript Part 5: Loops",
+			"link": "/lectures/loops"
+		}
+	]
+}

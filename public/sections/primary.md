@@ -1,5 +1,18 @@
 # Welcome!
 
+## Day 5
+- Javascript Review
+- Javascript: [Loops](/lectures/loops)
+- Javascript: [Event Listeners](/lectures/listeners)
+- Javascript: [Asynchronous](/lectures/async)
+- Conversation: Final Project
+- Assignment: [Pattern](/assignments/generative)
+
+<!-- 
+	Generative pattern with controls interface
+-->
+
+
 ## Day 4
 ### Class Files
 - You can find a zip of today&rsquo;s files [here](/files/march-02.zip).

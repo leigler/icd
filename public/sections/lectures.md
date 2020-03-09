@@ -11,3 +11,5 @@
 - Javascript Part 3: [Functions](/lectures/functions)
 - Javascript Part 4: [Appending to the DOM](/lectures/appending)
 - Javascript Part 5: [Loops](/lectures/loops)
+- Javascript Part 6: [Event Listeners](/lectures/listeners)
+- Javascript Part 7: [Asynchronous](/lectures/async)
