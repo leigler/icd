@@ -1,6 +1,10 @@
 # Welcome!
 
 ## Day 5
+### Class Files
+- You can find a zip of today&rsquo;s files [here](/files/march-09.zip).
+
+### Itinerary
 - Javascript Review
 - Javascript: [Loops](/lectures/loops)
 - Javascript: [Event Listeners](/lectures/listeners)
