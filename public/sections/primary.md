@@ -1,5 +1,13 @@
 # Welcome!
 
+## Day 6 (Online)
+### Itinerary
+- Javascript: [Asynchronous](/lectures/async)
+- Javascript: [Libraries](/lectures/libraries)
+- Pattern / Project Showcase Conversation
+- Individual Meetings (See email)
+
+
 ## Day 5
 ### Class Files
 - You can find a zip of today&rsquo;s files [here](/files/march-09.zip).

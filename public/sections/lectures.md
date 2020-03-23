@@ -13,3 +13,4 @@
 - Javascript Part 5: [Loops](/lectures/loops)
 - Javascript Part 6: [Event Listeners](/lectures/listeners)
 - Javascript Part 7: [Asynchronous](/lectures/async)
+- Javascript Part 8: [Libraries](/lectures/libraries)
